@@ -53,7 +53,7 @@
    
     
     <!--Main view port-->
-    <div id="home" class="container-fluid " style="margin-top: 0px;height: 100%;display: flex;">
+    <div id="home" class="container-fluid " style="margin-top: 0px;height: 100%;display: none;">
         <div class="col-lg" style="margin-top: 300px; margin-bottom: 400px; margin-left: 200px;">
             <div class="text-1">Hi there, my name is</div>
             <div class="text-2">Tokelo Nchabeleng..</div>
@@ -65,15 +65,104 @@
         </div>
     </div>
 
-    <div id="profile" class="container-fluid " style="margin-top: 0px;height: 100%; display: none;">
+    <div id="profile" class="container-fluid " style="margin-top: 0px;height: 100%; display: flex;">
         <!-- Left Panel -->
         <div class="col-lg-3 float-left h-100">
-        
-        </div>
-    
+            <div class="sticky-top">
+                <!--Profile Picture-->
+                <div style="margin-top: 20%; margin-left: 15%;">
+                    <img id ="user-profile" src="/images/profile.jpg">
+                </div>
+                
+                <!--Names-->
+                <p class="text-success h5 ml-4 mt-3">Tokelo Mokhulwane Nchabeleng</p>
+                
+                <!--Degree-->
+                <p class="text-light h6 ml-4 mb-3">Electrical & Information Engineering</p>
+                
+                <!--Social Media-->
+                <ul style="list-style: none;" >
+                    <!--Driver licence-->
+                    <li class="my-2">
+                        <i class="fas fa-credit-card"></i>
+                        Driving Licence: Code 10 (C1)
+                    </li>
+                    <!--Home Address-->
+                    <li class="my-2">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        House 60117 Thabampshe, Masemola, 1060
+                    </li>
+                    <!--LinkedIn-->
+                    <li class="my-2">
+                        <i class="fab fa-linkedin-in"></i>
+                        <a href="https://www.linkedin.com/in/tukzGobetse/" target="_blank">LinkedIn Profile</a>
+                    </li>
+                    <!--GitHub Profile-->
+                    <li class="my-2">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/tukzGobetse/" target="_blank">GitHub Profile</a>
+                    </li>
+                </ul>
+
+                <!--Line -->
+                <hr class="bg-light my-2">
+
+                <p class="h4 text-light">About Me</p>
+                <p>I’m an engineer who is always fascinated
+                    by the emerging technologies. My
+                    personal fields of interest are
+                    Telecommunications, Software
+                    Development and Machine Learning. I
+                    would like to describe myself as an
+                    adaptive and goal orientated individual.
+                </p>           
+                    
+            </div>
+        </div> 
+
         <!-- Right Panel -->
         <div class="col-lg">
-
+            <div style="margin-top: 5%; margin-left: 2%;">
+                <!--Hobbies-->
+                <p class="h4 text-light">Hobbies</p>
+                <ul style="list-style: none;" >
+                    <li>Learning (Coding, Internet surfing, Read about emerging technologies)</li>
+                    <li>Entertainment (Fitness, Soccer, Cricket, Swimming, Adventurous activities, Gaming, Movies)</li>
+                </ul> 
+                
+                <!--Education-->
+                <p class="h4 text-light">Education</p> 
+                <table class="table table-borderless">
+                    <tbody>
+                      <tr>
+                        <th scope="row">2010 - 2014</th>
+                        <td>NCS (CAPS): Science Stream
+                            <br> <span style="font-size: smaller;">CURRO: Northern Academy High School</span>
+                        </td>
+                        <td>South Africa</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2015 - 2019</th>
+                        <td>BSc (Honours): Electrical & Information Engineering
+                            <br> <span style="font-size: smaller;">University of the Witwatersrand</span>
+                        </td>
+                        <td>South Africa</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2021 - now</th>
+                        <td>Full Stack Web Development 
+                            <br> <span style="font-size: smaller;">Hyperion Development</span></td>
+                        <td>South Africa</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2020</th>
+                        <td> Candidate Engineer 
+                            <br> <span class="institution" style="font-size: smaller;">ECSA</span></td>
+                        <td>South Africa</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
         </div>
     </div>
 

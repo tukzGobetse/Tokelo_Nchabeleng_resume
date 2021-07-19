@@ -4,14 +4,6 @@ a {
  a:hover{
     text-decoration: none; 
  }
-.max-width{
-    max-width: 1300px;
-    padding: 0 80px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 .navbar {
     position: fixed;
@@ -39,14 +31,20 @@ a {
     /*Link Colour change upon Navigation hovering*/
 }
 
-#home{
+#home {
     display: flex;
     background: url("/images/web.jpg") no-repeat center;
     color: #fff;
     background-size: cover;
     font-family: 'Ubuntu', sans-serif;
 }
-
+#profile {
+    display: flex;
+    background: url("/images/background.jpg") no-repeat center;
+    color: #fff;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
 .text-1{
     font-size: 27px;
 }          
@@ -68,4 +66,16 @@ a {
 }
 .text-4 span{
     color: crimson;
+}
+
+/*===================Profile Style===========================*/
+#user-profile {
+    margin: auto;
+    width: 50%;
+    height: auto;
+    border-radius: 100%;
+}
+
+.institution {
+    
 }
