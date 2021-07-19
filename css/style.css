@@ -85,6 +85,7 @@ a {
     color: darkgray;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+/*================Education================*/
 .education-year {
     width: 10%;
 }
@@ -92,19 +93,25 @@ a {
 .education-title{
     width: 25%;
 }
-tr {
-    height: 2%;
-}
+
 .tbl-education tr:hover{
     color: crimson;
 }
+
+/*================Academic projects================*/
 .tbl-academic-project tr:hover{
     color: rgb(37, 157, 238);
+}
+.tbl-academic-project .education-year {
+    width: 4%;
 }
 .tbl-academic-project .education-title{
     width: 60%;
 }
-
+.tbl-academic-project .education-title{
+    width: 30%;
+}
+/*================Experience================*/
 .tbl-experience {
     margin-bottom: 50px;
     padding-bottom: 50px;
@@ -116,8 +123,8 @@ tr {
 .tbl-experience tr:hover{
     color: crimson;
 }
-
-.bg1{
+/*===============Section Highlighters=======================*/
+.bg1 {
     background-color: rgb(64, 101, 126);
     width: 17%;
 
