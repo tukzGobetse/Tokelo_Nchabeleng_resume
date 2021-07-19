@@ -77,5 +77,61 @@ a {
 }
 
 .institution {
-    
+    font-size: smaller;
+    color: darkcyan;
+}
+.subtitle {
+    padding-left: 15px;
+    color: darkgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.education-year {
+    width: 10%;
+}
+
+.education-title{
+    width: 25%;
+}
+tr {
+    height: 2%;
+}
+.tbl-education tr:hover{
+    color: crimson;
+}
+.tbl-academic-project tr:hover{
+    color: rgb(37, 157, 238);
+}
+.tbl-academic-project .education-title{
+    width: 60%;
+}
+
+.tbl-experience {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.tbl-experience .education-title{
+    width: 60%;
+}
+
+.tbl-experience tr:hover{
+    color: crimson;
+}
+
+.bg1{
+    background-color: rgb(64, 101, 126);
+    width: 17%;
+
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+     position: relative; 
+    right: 6%;
+}
+.bg2{
+    background-color: darkolivegreen;
+    width: 17%;
+
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    position: relative; 
+    right: 6%;
 }

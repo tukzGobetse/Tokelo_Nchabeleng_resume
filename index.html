@@ -67,8 +67,8 @@
 
     <div id="profile" class="container-fluid " style="margin-top: 0px;height: 100%; display: flex;">
         <!-- Left Panel -->
-        <div class="col-lg-3 float-left h-100">
-            <div class="sticky-top">
+        <div class="col-lg-3 float-left h-100 position-fixed">
+            <div class="">
                 <!--Profile Picture-->
                 <div style="margin-top: 20%; margin-left: 15%;">
                     <img id ="user-profile" src="/images/profile.jpg">
@@ -84,22 +84,22 @@
                 <ul style="list-style: none;" >
                     <!--Driver licence-->
                     <li class="my-2">
-                        <i class="fas fa-credit-card"></i>
+                        <i class="fas fa-credit-card mr-3"></i>
                         Driving Licence: Code 10 (C1)
                     </li>
                     <!--Home Address-->
                     <li class="my-2">
-                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <i class="fa fa-home mr-3" aria-hidden="true"></i>
                         House 60117 Thabampshe, Masemola, 1060
                     </li>
                     <!--LinkedIn-->
                     <li class="my-2">
-                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-linkedin-in mr-3"></i>
                         <a href="https://www.linkedin.com/in/tukzGobetse/" target="_blank">LinkedIn Profile</a>
                     </li>
                     <!--GitHub Profile-->
                     <li class="my-2">
-                        <i class="fab fa-github"></i>
+                        <i class="fab fa-github mr-3"></i>
                         <a href="https://github.com/tukzGobetse/" target="_blank">GitHub Profile</a>
                     </li>
                 </ul>
@@ -107,7 +107,8 @@
                 <!--Line -->
                 <hr class="bg-light my-2">
 
-                <p class="h4 text-light">About Me</p>
+                <p class="h4 text-light mt-3">About Me</p>
+
                 <p>I’m an engineer who is always fascinated
                     by the emerging technologies. My
                     personal fields of interest are
@@ -122,46 +123,168 @@
 
         <!-- Right Panel -->
         <div class="col-lg">
-            <div style="margin-top: 5%; margin-left: 2%;">
+            <div style="margin-top: 5%; margin-left: 30%;">
                 <!--Hobbies-->
-                <p class="h4 text-light">Hobbies</p>
+                <p class="h4 subtitle bg1">Hobbies</p>
                 <ul style="list-style: none;" >
                     <li>Learning (Coding, Internet surfing, Read about emerging technologies)</li>
                     <li>Entertainment (Fitness, Soccer, Cricket, Swimming, Adventurous activities, Gaming, Movies)</li>
                 </ul> 
                 
                 <!--Education-->
-                <p class="h4 text-light">Education</p> 
-                <table class="table table-borderless">
+                <p class="h4  subtitle bg2">Education</p> 
+                <table class="table table-borderless tbl-education">
                     <tbody>
                       <tr>
-                        <th scope="row">2010 - 2014</th>
-                        <td>NCS (CAPS): Science Stream
-                            <br> <span style="font-size: smaller;">CURRO: Northern Academy High School</span>
+                        <th class="education-year" scope="row">2010 - 2014</th>
+                        <td class="education-title">NCS (CAPS): Science Stream
+                            <br> <span class="institution">CURRO: Northern Academy High School</span>
                         </td>
                         <td>South Africa</td>
                       </tr>
                       <tr>
-                        <th scope="row">2015 - 2019</th>
-                        <td>BSc (Honours): Electrical & Information Engineering
-                            <br> <span style="font-size: smaller;">University of the Witwatersrand</span>
+                        <th class="education-year" scope="row">2015 - 2019</th>
+                        <td class="education-title">BSc (Honours): Electrical & Information Engineering
+                            <br> <span class="institution">University of the Witwatersrand</span>
                         </td>
                         <td>South Africa</td>
                       </tr>
                       <tr>
-                        <th scope="row">2021 - now</th>
-                        <td>Full Stack Web Development 
-                            <br> <span style="font-size: smaller;">Hyperion Development</span></td>
+                        <th class="education-year" scope="row">2021 - now</th>
+                        <td class="education-title">Full Stack Web Development 
+                            <br> <span class="institution">Hyperion Development</span></td>
                         <td>South Africa</td>
                       </tr>
                       <tr>
                         <th scope="row">2020</th>
-                        <td> Candidate Engineer 
-                            <br> <span class="institution" style="font-size: smaller;">ECSA</span></td>
+                        <td class="education-title"> Candidate Engineer 
+                            <br> <span class="institution">ECSA</span></td>
                         <td>South Africa</td>
                       </tr>
                     </tbody>
+                </table>
+
+                <!--Academic Projects-->
+                <p class="h4  subtitle bg1">Academic Projects</p> 
+                <table class="table table-borderless tbl-academic-project">
+                    <tbody>
+                      <tr>
+                        <th class="education-year" scope="row">2018</th>
+                        <td class="education-title">Implementation of arcade game "Gyruss" in C++ using SFML.
+                            <br> <span class="institution">Software Dev II</span>
+                        </td>
+                        <td>Wits</td>
+                      </tr>
+                      <tr>
+                        <th class="education-year" scope="row">2018</th>
+                        <td class="education-title">Implementation of an FTP Client-Server Application in Python
+                            <br> <span class="institution">Network Fundamentals</span>
+                        </td>
+                        <td>Wits</td>
+                      </tr>
+                      <tr>
+                        <th class="education-year" scope="row">2018</th>
+                        <td class="education-title">Parallelising SQL Equi-Join Function using MPI with Python.
+                            <br> <span class="institution">Data Intensive Computing</span></td>
+                        <td>Wits</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2018</th>
+                        <td class="education-title"> Design & Simulation of a Controller for Inverted Pendulum on a Cart 
+                            <br> <span class="institution">Control Theory</span></td>
+                        <td>Wits</td>
+                      </tr>
+                      <tr>
+                        <th class="education-year" scope="row">2018</th>
+                        <td class="education-title">Headlight Control of an Automobile using LiDAR & Image Processing
+                            <br> <span class="institution">Measurements Systems</span></td>
+                        <td>Wits</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2018</th>
+                        <td class="education-title"> Classification of M-QAM Signals using MLP Neural Network 
+                            <br> <span class="institution">Final Year Lab Project</span></td>
+                        <td>Wits</td>
+                      </tr>
+                    </tbody>
                   </table>
+
+                <!--Hobbies-->
+                <p class="h4 subtitle bg2">Skills</p>
+                <ul style="list-style: none;" >
+                    <li>Technical writing and communication skills.</li>
+                    <li>Problem solving and System modeling techniques.</li>
+                    <li>Fast learner and Self-taught individual</li>
+                    <li>MCU & Embedded systems knowledge (sdr:USRP,Raspbery Pi,ESP8266,Arduino,PICMCU)</li>
+                    <li>Emotional intelligence.</li>
+                </ul> 
+                
+                <!--Achievements-->
+                <p class="h4  subtitle bg1">Academic Projects</p> 
+                <table class="table table-borderless tbl-academic-project">
+                    <tbody>
+                        <tr>
+                        <th class="education-year" scope="row">2015</th>
+                        <td class="education-title">Certificate: C++ Online beginner course Development
+                            <br> <span class="institution">by Hyperion Development</span>
+                        </td>
+                        
+                        </tr>
+                        <tr>
+                        <th class="education-year" scope="row">2019</th>
+                        <td class="education-title">Certificate: 5G technology overview Training Development
+                            <br> <span class="institution">by Mrs Punitha Subbramaniam from Huawei</span>
+                        </td>
+                        </tr>
+                        <tr>
+                        <th class="education-year" scope="row">2020</th>
+                        <td class="education-title">Certificate: Building IoT Solutions for Smart Sustainable Cities
+                            <br> <span class="institution">by ITU & IoT Academy</span></td>
+                        </tr>
+                        <tr>
+                        <th scope="row">2020</th>
+                        <td class="education-title"> Certificate: Developing Internet of Things Ecosystem 
+                            <br> <span class="institution">by ITU & IoT Academy</span></td>
+                        
+                        </tr>
+                        <tr>
+                        <th class="education-year" scope="row">2021</th>
+                        <td class="education-title">Certificate: iPasolink VR Series Microwave Radio
+                            <br> <span class="institution">by NEC XON with Mr. Wouter De Jong</span></td>
+                        
+                        </tr>
+                        <tr>
+                        <th scope="row">2018</th>
+                        <td class="education-title"> Classification of M-QAM Signals using MLP Neural Network 
+                            <br> <span class="institution">Final Year Lab Project</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!--Experience-->
+                <p class="h4  subtitle bg2">Experience</p> 
+                <table class="table table-borderless tbl-experience mb-4 pb-4">
+                    <tbody>
+                        <tr>
+                        <th class="education-year" scope="row">2016</th>
+                        <td class="education-title">Sentech (Pty) Ltd
+                            <br> <span class="institution">Vacation Work: Maintenance Department</span>
+                        </td>
+                        
+                        </tr>
+                        <tr>
+                        <th class="education-year" scope="row">2017</th>
+                        <td class="education-title">Sentech (Pty) Ltd
+                            <br> <span class="institution">Vacation Work: Research and Development Department</span>
+                        </td>
+                        </tr>
+                        <tr>
+                        <th class="education-year" scope="row">2020 - now</th>
+                        <td class="education-title">Sentech (Pty) Ltd
+                            <br> <span class="institution">Engineer Trainee: Broadband and Satellite Communications</span></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
