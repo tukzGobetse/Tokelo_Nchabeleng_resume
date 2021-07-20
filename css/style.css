@@ -142,3 +142,23 @@ a {
     position: relative; 
     right: 6%;
 }
+/*Button with smooth sides
+I struggled with this one and got help from FORUM @
+https://stackoverflow.com/questions/52194355/css-buttons-rounded-on-one-side*/
+.view-product-btn {
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    /* position: relative; */
+    right: 50%;
+    /* bottom: 2%; */
+}
+.dialog-style {
+    position: relative;
+    left: 60%;
+    transform: translate(-30%, -120%);
+}
+
+.language {
+    width: 100px;
+    height: 100px;
+}

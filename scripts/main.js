@@ -24,3 +24,4 @@ $("#profile-link").click(() => {
     $("#profile").show()
     console.log("hide home")
 })
+
