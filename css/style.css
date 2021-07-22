@@ -40,7 +40,9 @@ a {
 }
 #profile {
     display: flex;
-    background: url('images/background.jpg') no-repeat center;
+    /* background: url('images/background.jpg') no-repeat center; */
+    background: url('https://img.wallpapersafari.com/desktop/1920/1080/14/73/tWkswF.png') no-repeat center; 
+    /*https://img.wallpapersafari.com/desktop/1920/1080/14/73/tWkswF.png*/
     color: #fff;
     background-size: cover;
     font-family: 'Ubuntu', sans-serif;
