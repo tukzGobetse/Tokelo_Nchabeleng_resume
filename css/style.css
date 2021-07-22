@@ -40,7 +40,7 @@ a {
 }
 #profile {
     display: flex;
-    background-image: url("https://mcdn.wallpapersafari.com/medium/47/42/0BymIn.jpeg") no-repeat center; 
+    background: url("https://mcdn.wallpapersafari.com/medium/47/42/0BymIn.jpeg") no-repeat center; 
     color: #fff;
     background-size: cover;
     font-family: 'Ubuntu', sans-serif;
