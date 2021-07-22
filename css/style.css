@@ -33,14 +33,14 @@ a {
 
 #home {
     display: flex;
-    background: url("../images/web.jpg") no-repeat center;
+    background: url("/images/web.jpg") no-repeat center;
     color: #fff;
     background-size: cover;
     font-family: 'Ubuntu', sans-serif;
 }
 #profile {
     display: flex;
-    background: url("../images/background.jpg") no-repeat center;
+    background: url("/images/background.jpg") no-repeat center;
     color: #fff;
     background-size: cover;
     font-family: 'Ubuntu', sans-serif;
